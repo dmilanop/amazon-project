@@ -1,7 +1,4 @@
-.navbar-toggler:focus{
-    box-shadow: none;
-}
-
-.navbar-toggler{
-    border: none;
+.name-project{
+    font-size: 25px;
+    font-family: 'Silkscreen', cursive;
 }

@@ -1,18 +1,16 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
-
-    const[disabled, setDisabled] = useState(false)
-
+    
     return (
         <>
             <nav className="navbar navbar-light bg-light">
                 <div className="container-fluid">
                     <Link to="/" className="navbar-brand" href="#"><h5>Amazon Project</h5></Link>
-                    <button className="navbar-toggler" disabled={disabled} onClick={() => setDisabled(true)} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <FontAwesomeIcon icon={faBars} />
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">

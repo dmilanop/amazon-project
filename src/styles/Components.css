@@ -7,10 +7,6 @@
     background-color: #e3f2fd;
 }
 
-.navbar-toggler:focus{
-    box-shadow: none;
-}
-
 .p-navbar{
     font-size: 15px;
     font-family: 'Silkscreen', cursive;

@@ -4,7 +4,7 @@ import "../styles/Views.css"
 const Home = () => {
     return(
         <main>
-            <div className="container">
+            <div className="container-fluid">
                 <h1>Hello World!</h1>
             </div>
         </main>

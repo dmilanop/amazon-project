@@ -1,6 +1,7 @@
 h1{
     color: black;
     font-family: 'Silkscreen', cursive;
+    padding-top: 90px;
 }
 
 .card-text{
@@ -16,4 +17,5 @@ h1{
 .row-card{
     display: flex;
     margin-bottom: 50px;
+    padding-top: 90px;
 }

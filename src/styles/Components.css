@@ -1,13 +1,19 @@
-.name-project{
-    font-size: 25px;
+.header{
     font-family: 'Silkscreen', cursive;
-}
-
-.navbar{
     background-color: #e3f2fd;
+    height: 75px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
-.p-navbar{
-    font-size: 15px;
-    font-family: 'Silkscreen', cursive;
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link{
+    color: black;
+    text-decoration: none;
 }

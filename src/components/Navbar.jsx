@@ -14,17 +14,17 @@ const Navbar = () => {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="menu">
-                        <ul>
-                            <li>
+                        <ul className="navbar-nav">
+                            <li className="nav-item">
                                 <Link to={"/views2"}>Products</Link>
                             </li>
-                            <li>
+                            <li className="nav-item">
                                 <Link to={"/views2"}>Review</Link>
                             </li>
-                            <li>
+                            <li className="nav-item">
                                 <Link to={"/views2"}>About us</Link>
                             </li>
-                            <li>
+                            <li className="nav-item">
                                 <Link to={"/views2"}>Contact</Link>
                             </li>
                         </ul>

@@ -1,0 +1,21 @@
+.nav-logo{
+    color: black;
+}
+
+.nav-title{
+    color: black;
+    font-family: 'Silkscreen', cursive;
+}
+
+.link-decoration{
+    color: black;
+    margin: 5px;
+    font-family: 'Silkscreen', cursive;
+}
+
+.link-decoration:hover{
+    border-radius: 12px;
+    box-shadow: 1px;
+    background-color: aquamarine;
+    padding: 4px;
+}

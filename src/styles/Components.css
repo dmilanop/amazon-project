@@ -1,3 +1,13 @@
+.navbar-toggler{
+    color: black;
+    background-color: black;
+}
+
+.nav-div{
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
 .nav-logo{
     color: black;
 }
@@ -9,7 +19,7 @@
 
 .link-decoration{
     color: black;
-    margin: 5px;
+    margin: 2px;
     font-family: 'Silkscreen', cursive;
 }
 
@@ -18,4 +28,9 @@
     box-shadow: 1px;
     background-color: aquamarine;
     padding: 4px;
+}
+
+.link-social-networks{
+    color: black;
+    font-family: 'Silkscreen', cursive;
 }

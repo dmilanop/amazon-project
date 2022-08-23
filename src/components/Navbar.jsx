@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <>
             <nav className="navbar navbar-expand-md navbar-dark">
-                <div className="container-fluid">
+                <div className="container-fluid nav-div">
                     <Link to={"/"} className="navbar-brand"><FaAmazon className="nav-logo"/> <span className="nav-title">Amazon Project</span></Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -44,16 +44,16 @@ const Navbar = () => {
                                 </ul>
                             </li>
                         </ul>
-                        <hr className="text-white-50"/>
+                        <hr className="text-black-50"/>
                         <ul className="navbar-nav flex-row flex-wrap text-light">
                             <li className="nav-item col-6 col-md-auto p-3">
-                                <FaGithub className="nav-logo"/><small className="d-md-none ms-2">Github</small>
+                                <FaGithub className="nav-logo"/><small className="link-social-networks d-md-none ms-2">Github</small>
                             </li>
                             <li className="nav-item col-6 col-md-auto p-3">
-                                <FaInstagram className="nav-logo"/><small className="d-md-none ms-2">Instagram</small>
+                                <FaInstagram className="nav-logo"/><small className="link-social-networks d-md-none ms-2">Instagram</small>
                             </li>
                             <li className="nav-item col-6 col-md-auto p-3">
-                                <FaLinkedinIn className="nav-logo"/><small className="d-md-none ms-2">LinkedIn</small>
+                                <FaLinkedinIn className="nav-logo"/><small className="link-social-networks d-md-none ms-2">LinkedIn</small>
                             </li>
                         </ul>
                     </div>

@@ -31,7 +31,7 @@ const Navbar = () => {
                                 id="navbarDropdown" 
                                 role="button"
                                  data-bs-toggle="dropdown"><span className="link-decoration">Contact</span></Link>
-                                <ul className="dropdown-menu bg-secondary">
+                                <ul className="dropdown-menu">
                                     <li>
                                         <a href="https://getbootstrap.com/docs/5.1/components/navbar/" className="dropdown-item" target="_blank" rel="noreferrer noopener">Email</a>
                                     </li>

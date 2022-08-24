@@ -14,7 +14,7 @@ const Navbar = () => {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="menu">
-                        <ul className="navbar-nav mx-auto">
+                        <ul className="navbar-nav mx-auto views-list">
                             <li className="nav-item">
                                 <Link to={"/views2"} className="nav-link"><span className="link-decoration">Products</span></Link>
                             </li>

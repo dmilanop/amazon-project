@@ -44,8 +44,8 @@ const Navbar = () => {
                                 </ul>
                             </li>
                         </ul>
-                        <hr className="text-black-50"/>
-                        <ul className="navbar-nav flex-row flex-wrap text-light">
+                        <hr className="text-white-50"/>
+                        <ul className="navbar-nav flex-row social-media-list">
                             <li className="nav-item col-6 col-md-auto p-3">
                                 <FaGithub className="nav-logo"/><small className="link-social-networks d-md-none ms-2">Github</small>
                             </li>

@@ -54,3 +54,7 @@
     padding: 4px;
     width: 75%;
 }
+
+.social-media-list{
+    flex-wrap: nowrap;
+}

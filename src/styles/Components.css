@@ -8,8 +8,8 @@
 }
 
 .nav-div{
-    padding-right: 2px;
-    padding-left: 2px;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
 }
 
 .nav-logo{
@@ -24,13 +24,18 @@
 .link-decoration{
     color: orange;
     margin: 2px;
+    font-size: 10px;
     font-family: 'Silkscreen', cursive;
 }
 
 .link-decoration:hover{
-    border-radius: 12px;
-    background-color: white;
-    padding: 4px;
+    background-color: gray;
+    border-top: 4px solid orange;
+    padding-top: 29px;
+    padding-bottom: 27px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    transition: left 2s;
 }
 
 .link-social-networks{
@@ -44,6 +49,7 @@
 
 .dropdown-item{
     font-family: 'Silkscreen', cursive;
+    font-size: 10px;
     color: orange;
 }
 
@@ -56,5 +62,5 @@
 }
 
 .social-media-list{
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }

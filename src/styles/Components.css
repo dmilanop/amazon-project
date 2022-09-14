@@ -26,16 +26,17 @@
     margin: 2px;
     font-size: 10px;
     font-family: 'Silkscreen', cursive;
+    transition: 500ms ease-in-out;
 }
 
 .link-decoration:hover{
     background-color: gray;
     border-top: 4px solid orange;
     padding-top: 29px;
-    padding-bottom: 27px;
+    padding-bottom: 28px;
     padding-left: 1rem;
     padding-right: 1rem;
-    
+    margin: 0;
 }
 
 .link-social-networks{

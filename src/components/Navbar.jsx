@@ -7,7 +7,7 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className="navbar navbar-expand-md navbar-dark bg-dark">
+            <nav className="navbar navbar-expand-md navbar-dark bg-white">
                 <div className="container-fluid nav-div">
                     <Link to={"/"} className="navbar-brand"><FaAmazon className="nav-logo"/> <span className="nav-title">Amazon Project</span></Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

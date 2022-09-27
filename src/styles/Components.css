@@ -13,16 +13,16 @@
 }
 
 .nav-logo{
-    color: orange;
+    color: black;
 }
 
 .nav-title{
-    color: orange;
+    color: black;
     font-family: 'Silkscreen', cursive;
 }
 
 .link-decoration{
-    color: orange;
+    color: black;
     margin: 2px;
     font-size: 10px;
     font-family: 'Silkscreen', cursive;
@@ -40,7 +40,7 @@
 }
 
 .link-social-networks{
-    color: orange;
+    color: black;
     font-family: 'Silkscreen', cursive;
 }
 
